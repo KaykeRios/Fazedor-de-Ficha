@@ -17,6 +17,7 @@
         .fade-out {
             opacity: 0;
         }
+        
         .Profile {
             padding: 20px; 
             margin: 30px;  
@@ -28,53 +29,51 @@
             border: 5px solid gray;
             margin: 5;
         }
-        .Titulo{
-            padding: 20px; 
-            margin: 30px;
-            border: 5px solid gray;
-            margin: 5;
-            width: 280px;
-            height:1000px; 
-            display: Atributos; 
-        }
-        .Atributos{           
-            border: 5px solid rgb(212, 0, 0);
-            padding:40px;
-            margin: 5;
-            width: 280px;
-            height:100px; 
-            margin: 30px;
-        }
 
+        .Titulo {
+            padding: 20px; 
+            margin: 10px;
+            border: 5px solid #808080;
+            margin: 5;
+            width: 280px;
+            height: auto; /* Corrigido para ajustar a altura conforme o conteúdo */
+            display: inline-block; 
+            background-color: #222222; /* Opcional: para garantir que o fundo é branco */
+        }
+        
+        .Atributos {           
+            border: 5px solid #808080; /* Borda vermelha */
+            padding: 20px; /* Ajustado o padding */
+            margin: 30px auto; /* Centraliza horizontalmente e adiciona margem superior e inferior */
+            width: 160px; /* Ajuste a largura conforme necessário */
+            background-color: #fff; /* Adiciona um fundo branco para melhor contraste */
+        }
 
         body {
-            background-color: rgb(34, 34, 34);         
+            background-color: #222222;         
             font-family: Arial, Helvetica, sans-serif;   
-        }   
+        }
         
-
-             
+        h1, h2, h3, h4, h5, h6, p {
+            color: #000; /* Garante que o texto é visível sobre o fundo */
+        }
     </style>
 </head>
 <body>
     <div class="Titulo">
-    <img src="https://ordem.jamboeditora.com.br/wp-content/uploads/2021/11/logo-700.png" alt=""style="width: 280px; height: 96.4px";>
-    <div class="Profile">        
-        <img src="https://cdn-icons-png.flaticon.com/512/74/74472.png"style="width: 150px; height: 150px";>
-        </div class="Atributos">
-            <h9>VIGOR:1</h9> 
-                <br>
-            <h9>AGILIDADE:1</h9> 
-                <br>
-            <h9>FORÇA:1</h9>
-                <br>
-            <h9>INTELECTO:1</h9> 
-                <br>
-            <h9>PRESENÇA:1</h9> 
+        <img src="https://ordem.jamboeditora.com.br/wp-content/uploads/2021/11/logo-700.png" alt="" style="width: 280px; height: auto;">
+        
+        <div class="Profile">        
+            <img src="https://cdn-icons-png.flaticon.com/512/74/74472.png" style="width: 150px; height: 150px;">
+        </div>
+        
+        <div class="Atributos">
+            <p>VIGOR: 1</p>
+            <p>AGILIDADE: 1</p>
+            <p>FORÇA: 1</p>
+            <p>INTELECTO: 1</p>
+            <p>PRESENÇA: 1</p>
         </div>
     </div>
-
-
-    
 </body>
 </html>
